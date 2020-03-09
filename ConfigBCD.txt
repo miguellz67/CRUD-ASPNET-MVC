@@ -1,0 +1,2 @@
+Banco = db_empresa
+Tabela = clientes : id primary key auto_increment; Identificacao; Nome; CPF
