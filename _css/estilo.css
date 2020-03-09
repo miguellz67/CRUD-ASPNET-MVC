@@ -1,0 +1,22 @@
+﻿@charset "UTF-8";
+body {
+    background-color:dodgerblue;
+    font-family: Calibri;
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+}
+
+div {
+    box-shadow: black 10px 10px 10px;
+    width:50%;
+    height:auto;
+    background-color:whitesmoke;
+    padding: 10px;
+   
+}
+
+a {
+    text-decoration: none;
+}

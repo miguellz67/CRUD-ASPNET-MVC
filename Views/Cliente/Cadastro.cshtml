@@ -1,0 +1,42 @@
+﻿    @{
+        Layout = null;
+
+    }
+
+    <!DOCTYPE html>
+
+    <html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="~/_css/estilo.css" rel="stylesheet"/>
+        <title>Sistema Clientes</title>
+    </head>
+    <body>
+        <div class="jumbotron mt-5">
+            <h1>Cadastro de Clientes</h1>
+            <form action="/Cliente/Adicionar" method="post">
+                <label for="nome">Nome:</label>
+                <input class="form form-control " name="nome" autofocus required/>
+
+                <label for="cpf">CPF:</label>
+                <input class="form-control form-control-sm w-25" name="cpf" required />
+
+                <label for="id">ID (Insira apenas para identificar usuários já existentes):</label>
+                <input class="form-control form-control-sm w-25 mb-4" type="number" name="id" />
+
+                <input type="submit" class="btn btn-success" value="Cadastrar" />
+                <input type="submit" class="btn btn-warning" value="Atualizar" formaction="/Cliente/Atualizar" />
+                <input type="submit" class="btn btn-danger" value="Deletar" formaction="/Cliente/Deletar" />
+                <input type="submit" class="btn btn-info" value="Consultar" formaction="/Cliente/Consultar"/>
+                
+            </form>
+
+        </div>
+       
+    <script>
+
+    </script>
+    </body>
+</html>
